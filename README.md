@@ -43,6 +43,8 @@ dotnet run --prompt-file ./sample-prompt.txt --image-file ./sample-image.png
 
 Generated sample result:
 
+![](./src/sample-image.png)
+
 ```markdown
 - 黒い背景の上に置かれた多色ボールペン
 - ペンの本体は赤色で、クリップとノック部分は黒色
