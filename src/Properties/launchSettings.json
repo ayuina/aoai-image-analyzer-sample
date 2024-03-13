@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AoaiImageAnalyzer": {
+      "commandName": "Project",
+      "commandLineArgs": "--prompt-file ../../../sample-prompt.txt --image-file ../../../sample-image.png "
+    }
+  }
+}
