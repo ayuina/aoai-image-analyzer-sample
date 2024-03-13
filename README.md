@@ -41,3 +41,13 @@ This sample application needs 2 Azure services as backend:
 dotnet run --prompt-file ./sample-prompt.txt --image-file ./sample-image.png 
 ```
 
+Generated sample result:
+
+```markdown
+- 黒い背景の上に置かれた多色ボールペン
+- ペンの本体は赤色で、クリップとノック部分は黒色
+- ペンの先端部分は黒いグリップで覆われている
+- ペンの上部には緑、赤、黒の3色のノックがある
+- ペンのクリップは金属製で光沢がある
+- ペンは斜めに置かれており、先端が手前に向いている
+```
