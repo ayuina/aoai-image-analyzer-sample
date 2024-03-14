@@ -29,6 +29,21 @@ This sample application needs 2 Azure services as backend:
     - [Deploy model using Azure OpenAI Studio](https://oai.azure.com/portal)
     - Copy the Account endpoint url, the API key, and the Model name to `appsettings.json` (or user secrets).
 
+### User Secret
+
+```powershell
+# get secrets id from project file
+$secretsid = ([xml](Get-Content ./AoaiImageAnalyzer.csproj)).SelectSingleNode('//UserSecretsId/text()').Value
+
+# secrets.json path in linux/macOS 
+$secrets_json = "~/.microsoft/usersecrets/${secretsid}/secrets.json"
+# secrets.json path in linux/macOS 
+$secrets_json = "${Env:APPDATA}\Microsoft\UserSecrets\${secretsid}\secrets.json"
+
+# open with vscode
+code $secrets_json
+```
+
 ## Running the application
 
 1. Prepare your image file and system prompt in text file.
