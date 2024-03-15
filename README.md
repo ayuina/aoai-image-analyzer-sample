@@ -16,6 +16,8 @@ or
 winget install Microsoft.DotNet.SDK.8 
 ```
 
+or Open this repository with [Visual Studio Code Dev Container](https://code.visualstudio.com/docs/devcontainers/containers)
+
 ## Azure Service
 
 This sample application needs 2 Azure services as backend:
